@@ -49,8 +49,9 @@ liblpcnet_la_LDFLAGS = -no-undefined \
 
 noinst_PROGRAMS = lpcnet_demo dump_data dump_weights_blob
 
-lpcnet_demo_SOURCES = src/lpcnet_demo.c
-lpcnet_demo_LDADD = liblpcnet.la
+lpcnet_demo_SOURCES = src/lpcnet_demo.c src/freq.c src/kiss_fft.c src/burg.c src/common.c src/lpcnet_tables.c
+lpcnet_demo_LDADD = liblpcnet.la $(DEPS_LIBS) $(LIBM)
+lpcnet_demo_CFLAGS = $(AM_CFLAGS)
 
 
 #DUMP_SOURCES = src/freq.c src/kiss_fft.c src/pitch.c src/lpcnet_dec.c src/lpcnet_enc.c src/ceps_codebooks.c src/common.c

@@ -1,0 +1,29 @@
+/* Auto generated from checkpoint revq7_e10_mq.pth */
+
+
+#ifndef DRED_RDOVAE_CONSTANTS_H
+#define DRED_RDOVAE_CONSTANTS_H
+
+#include "nnet.h"
+
+
+#define DRED_NUM_FEATURES 20
+
+#define DRED_LATENT_DIM 80
+
+#define DRED_STATE_DIME 24
+
+#define DRED_NUM_QUANTIZATION_LEVELS 16
+
+#define DRED_MAX_RNN_NEURONS 256
+
+#define DRED_MAX_CONV_INPUTS 8192
+
+#define DRED_ENC_MAX_RNN_NEURONS 8192
+
+#define DRED_ENC_MAX_CONV_INPUTS 8192
+
+#define DRED_DEC_MAX_RNN_NEURONS 256
+
+
+#endif /* DRED_RDOVAE_CONSTANTS_H */

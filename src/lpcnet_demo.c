@@ -32,7 +32,7 @@
 #include <stdio.h>
 #include "arch.h"
 #include "lpcnet.h"
-#include "freq.h"
+#include "lpcnet_private.h"
 
 #ifdef USE_WEIGHTS_FILE
 # if __unix__

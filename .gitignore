@@ -1,0 +1,49 @@
+# 编译生成的文件
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+
+# 可执行文件
+lpcnet_demo
+dump_data
+dump_weights_blob
+
+# 自动生成的文件
+Makefile
+Makefile.in
+config.h
+config.h.in
+config.log
+config.status
+stamp-h1
+aclocal.m4
+autom4te.cache/
+*.pc
+*.pc.in
+ltmain.sh
+compile
+depcomp
+install-sh
+missing
+config.guess
+config.sub
+
+# 临时文件
+*~
+*.swp
+*.swo
+
+# 依赖目录
+.libs/
+.deps/
+
+# 其他
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.tgz 
